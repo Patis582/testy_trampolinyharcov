@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!--css-->
+     <link rel="stylesheet" href="../css/vsechny.css">
+     <link rel="stylesheet" href="../css/aktuality.css">
+     <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!--Tailwind-->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+     
+    <title>Aktuality</title>
+</head>
+<body>
+
+
+  <header>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-transparent mt-3 mb-5" > <!--Pridat navbar-dark-->
+        <div class="container rounded-3" style="background-color: rgb(205, 232, 229);">
+          <!--Logo-->
+          <a class="navbar-brand fs-4 logo" href="./index.html">
+            <img src="../imgs/logo_patrman_zmodro-zelene.jpg" class="d-inline-block align-text-top" width="30" alt="Logo">
+            Trampolíny Harcov
+          </a>
+          <!--Toogle btn-->
+          <button class="navbar-toggler shadows-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Side bar-->
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <!--Sidebar header-->
+              <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title nadpis-sidebar px-4 mx-3" id="offcanvasNavbarLabel">Trampolíny Harcov</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <!--Sidebar body-->
+              <div class="offcanvas-body p-4 p-lg-0">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="navbar-links  mx-4" aria-current="page" href="./index.html">Domů</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-links  mx-4" aria-current="page" href="./Aktualityy.html">Aktuality</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-links active mx-4" aria-current="page" href="./projekt.html">Projekt</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-links  mx-4" aria-current="page" href="./contact.html">Kontakt</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-links mx-4" aria-current="page" href="./onas.html">O nás</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="navbar-links mx-4 disabled" disabled aria-current="page" href="#">Pripojit se</a>
+                  </li> 
+                </ul>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+
+    <main>
+      <!--Aktuality-->
+      <section class="text-gray-600 body-font">
+        <div class="container pb-24 mx-auto">
+          <div class="flex flex-col p-1">
+            <div class="h-1 bg-gray-200 rounded">
+              <div class="w-24 h-full " style="background-color: rgb(122, 178, 178);"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+              <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Aktuality</h1>
+            </div>
+          </div>
+          <div class="flex flex-wrap mb-10 mt-4">
+
+            <div class="py-6 md:w-1/3 sm:mb-0 mb-6">
+              <div class=" rounded-lg h-64 overflow-hidden" style="border: 2px solid rgb(205, 232, 229);">
+                <img alt="content" class="object-cover object-center h-full w-full" src="../imgs/HARCOV_V_POHYBU.jpg">
+              </div>
+              <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Harcov v pohybu - 23.6. 2024</h2>
+              <p class="text-base leading-relaxed mt-2">
+                V neděli 23.6. 2024 Vás zveme na sportovní odpoledne pro rodiny s dětmi. Akce se koná na pozemku, na kterém plánujeme vybudovat nové sportoviště
+                pro veřejnost.
+              </p>
+              <a href="./Aktuality_vice/Harcov_v_pohybu.html" class="inline-flex items-center mt-3 sipka" style="color: rgb(77, 134, 156);">Více
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <!--
+            <div class="p-6 md:w-1/3 sm:mb-0 mb-6">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
+              </div>
+              <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Aktuality</h2>
+              <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+              <a href="./index.html" class="inline-flex items-center mt-3" style="color: rgb(77, 134, 156);">Více
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            -->
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!--Footer-->
+    <footer class="py-3 mt-4 px-5 border-top bg-light">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div class="d-flex align-items-center mb-3 mb-md-0">
+              <a target="_blank" href="https://www.trampoliny.cz/" class="me-2 text-muted text-decoration-none lh-1">
+                  <img width="48" src="../imgs/logo_patrman_zmodro-zelene.jpg" alt="Logo">
+              </a>
+              <span class="text-muted" style="color: rgb(122, 178, 178);">© 2024 Trampolíny Patrman</span>
+          </div>
+  
+          <ul class="nav justify-content-center justify-content-md-end list-unstyled d-flex mb-0">
+              <li class="ms-3">
+                  <a target="_blank" class="text-muted" href="https://www.instagram.com/trampoliny_liberec?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                      <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                  </a>
+              </li>
+              <li class="ms-3">
+                  <a target="_blank" class="text-muted" href="https://www.instagram.com/trampolinypatrman?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                      <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                  </a>
+              </li>
+              <li class="ms-3">
+                  <a target="_blank" class="text-muted" href="https://www.facebook.com/trampolinypatrman/?locale=cs_CZ">
+                      <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>
+    </footer>
+
+  
+    
+    <!--SCRIPT-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

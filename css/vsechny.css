@@ -1,0 +1,81 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-links{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    font-weight: 400;
+}
+.navbar-links:hover{
+    color: rgb(77, 134, 156);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgb(122, 178, 178, 0.9);
+    }
+    .nav-item{
+        padding-top: 10px;
+        padding: 10px;
+    }
+    .navbar-links{
+        color: rgb(255, 255, 255);
+    }
+    
+
+}
+.nadpis-sidebar{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bi{
+    font-size: 25px;
+    color: rgb(122, 178, 178);
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    font-weight: 400;
+}
+.logo:hover{
+    color: rgb(77, 134, 156);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+}
+.fotky{
+    transition: all 0.3s ease;
+    transform: scale(1);
+    text-decoration: none;
+  }
+.fotky:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+@media (max-width: 766px){
+    footer{
+        position: relative;
+    }
+}
+.odkaz{
+    color: rgb(77, 134, 156);
+    text-decoration: underline;
+}

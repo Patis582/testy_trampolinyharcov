@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+body{
+    background-image: url(../imgs/BG.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    font-weight: 400;
+}
+.navbar-links:hover{
+    color: rgb(77, 134, 156);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgb(122, 178, 178, 0.9);
+    }
+    .nav-item{
+        padding-top: 10px;
+        padding: 10px;
+    }
+    .navbar-links{
+        color: rgb(255, 255, 255);
+    }
+    
+}
+.nadpis-sidebar{
+    font-size: 20px;
+    font-weight: 500;
+}
+.bi{
+    font-size: 25px;
+    color: rgb(122, 178, 178);
+}
+.logo{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    font-weight: 400;
+}
+.logo:hover{
+    color: rgb(77, 134, 156);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.vule{
+    font-size: 2.25rem;
+    
+}
+.cesta{
+    font-size: 2.25rem;
+    
+}
+@media (max-width: 416px){
+    .vule{
+        margin-right: 2rem;
+        font-size: 25px;
+    }
+    .cesta{
+        margin-left: 2rem;
+        font-size: 25px;
+    }
+}
+@media (max-width: 280px){
+    .vule{
+        margin-right: 2rem;
+        font-size: 15px;
+    }
+    .cesta{
+        margin-left: 2rem;
+        font-size: 15px;
+    }
+}

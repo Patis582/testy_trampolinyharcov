@@ -1,0 +1,39 @@
+
+.fotky{
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+.fotky:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+@media (max-width: 760px){
+  #modal-img {
+    max-width: 500px;
+  }
+}
+@media (max-width: 500px){
+  #modal-img {
+    max-width: 450px;
+  }
+}
+@media (max-width: 460px){
+  #modal-img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 360px){
+  #modal-img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 310px){
+  #modal-img {
+    max-width: 250px;
+  }
+}
+@media (max-width: 260px){
+  #modal-img {
+    max-width: 200px;
+  }
+}
